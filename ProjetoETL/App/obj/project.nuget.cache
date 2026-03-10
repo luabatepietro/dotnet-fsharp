@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "M93rlTB+UOo=",
+  "success": true,
+  "projectFilePath": "/workspaces/dotnet-fsharp/ProjetoETL/App/App.fsproj",
+  "expectedPackageFiles": [
+    "/home/vscode/.nuget/packages/fsharp.core/8.0.403/fsharp.core.8.0.403.nupkg.sha512"
+  ],
+  "logs": []
+}
