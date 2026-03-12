@@ -40,13 +40,9 @@ A ordem dos arquivos no `.fsproj` é obrigatória: cada arquivo só pode referen
 
 ### Passos
 
+lembre-se de colocar os arquivos .csv para conseguir rodar
 ```bash
-# 1. Clone ou descompacte o projeto
 cd EtlProject
-
-# 2. Coloque os arquivos order.csv e order_item.csv na pasta do projeto
-
-# 3. Restaure dependências e execute
 dotnet run
 ```
 
@@ -114,13 +110,6 @@ let orderItems = readOrderItemsFromUrl "https://seu-servidor/order_item.csv"
 ## Requisitos Atendidos
 
 ### Obrigatórios
-- [x] Projeto em F#
-- [x] Uso de `map`, `fold` e `filter` nas transformações
-- [x] Funções de leitura e escrita de CSV
-- [x] Separação de funções puras e impuras em arquivos distintos
-- [x] Entrada carregada em lista de Records
-- [x] Helper Functions para carregar campos nos Records (`parseOrder`, `parseOrderItem`)
-- [x] Relatório do projeto (este README)
 
 ### Opcionais Implementados
 - [x] **Inner join em F#** — `Transform.innerJoin` junta as duas tabelas antes do Transform
