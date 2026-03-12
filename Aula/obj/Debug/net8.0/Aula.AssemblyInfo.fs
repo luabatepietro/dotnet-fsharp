@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("Aula")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1cc4ca6970d028a93d8cb1b0ca31b8519877c94d")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("Aula")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("Aula")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]
